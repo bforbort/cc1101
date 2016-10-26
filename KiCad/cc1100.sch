@@ -743,8 +743,54 @@ F 3 "" H 3650 6800 50  0000 C CNN
 $EndComp
 Text Notes 2050 6300 0    60   ~ 0
 TODO: MOSFET?
-Text Notes 7250 6100 0    60   ~ 0
-TODO: SWD Header
 Text Notes 3800 3450 0    60   ~ 0
 TODO: More decoupling?
+$Comp
+L CONN_01X06 P?
+U 1 1 5810EFB0
+P 5500 7150
+F 0 "P?" H 5500 7500 50  0000 C CNN
+F 1 "SWD" V 5600 7150 50  0000 C CNN
+F 2 "" H 5500 7150 50  0000 C CNN
+F 3 "" H 5500 7150 50  0000 C CNN
+	1    5500 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5810F2C2
+P 5300 6900
+F 0 "#PWR?" H 5300 6750 50  0001 C CNN
+F 1 "+3V3" H 5300 7040 50  0000 C CNN
+F 2 "" H 5300 6900 50  0000 C CNN
+F 3 "" H 5300 6900 50  0000 C CNN
+	1    5300 6900
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 5750 2    60   Input ~ 0
+SWCLK
+Text GLabel 7150 5650 2    60   BiDi ~ 0
+SWDIO
+Text GLabel 5300 7200 0    60   BiDi ~ 0
+SWDIO
+Text GLabel 5300 7000 0    60   Input ~ 0
+SWCLK
+$Comp
+L Earth #PWR?
+U 1 1 5810F450
+P 4750 7100
+F 0 "#PWR?" H 4750 6850 50  0001 C CNN
+F 1 "Earth" H 4750 6950 50  0001 C CNN
+F 2 "" H 4750 7100 50  0000 C CNN
+F 3 "" H 4750 7100 50  0000 C CNN
+	1    4750 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 7100 5300 7100
+Text GLabel 3800 4400 0    60   Input ~ 0
+NRST
+Text GLabel 5300 7300 0    60   Input ~ 0
+NRST
+NoConn ~ 5300 7400
 $EndSCHEMATC
