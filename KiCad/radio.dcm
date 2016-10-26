@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32L052K8Tx
+D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+K ARM Cortex-M0+ STM32L0 STM32L0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
+$ENDCMP
+#
+#End Doc Library
