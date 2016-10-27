@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LP2989IMX-3.3/NOPBCT
+D LP2989IMX-3.3, Micropower and Low-Noise, 500mA Ultra LDO Regulator, Fixed Output 3.3V, MSOP-8
+K Linear LDO Regulator 500mA 3.3V
+F http://www.ti.com/lit/ds/symlink/lp2989.pdf
+$ENDCMP
+#
 #End Doc Library
