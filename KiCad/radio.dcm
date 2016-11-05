@@ -1,5 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVC1T45GW
+D Dual supply translating transceiver; 3-state
+F http://www.nxp.com/documents/data_sheet/74LVC_LVCH1T45.pdf
+$ENDCMP
+#
+$CMP 74LVC2T45DC
+D Dual supply translating transceiver; 3-state
+F http://www.nxp.com/documents/data_sheet/74LVC_LVCH2T45.pdf
+$ENDCMP
+#
+$CMP 74LVCH1T45GW
+D Dual supply translating transceiver; 3-state
+F http://www.nxp.com/documents/data_sheet/74LVC_LVCH1T45.pdf
+$ENDCMP
+#
 $CMP LP2989IMX-3.3/NOPBCT
 D LP2989IMX-3.3, Micropower and Low-Noise, 500mA Ultra LDO Regulator, Fixed Output 3.3V, MSOP-8
 K Linear LDO Regulator 500mA 3.3V

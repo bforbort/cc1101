@@ -1,4 +1,4 @@
-update=Wednesday, October 26, 2016 'AMt' 10:00:01 AM
+update=Saturday, November 05, 2016 'AMt' 10:52:32 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -110,3 +110,4 @@ LibName78=video
 LibName79=Worldsemi
 LibName80=Xicor
 LibName81=Zilog
+LibName82=sma_edge

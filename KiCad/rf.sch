@@ -80,6 +80,7 @@ LIBS:video
 LIBS:Worldsemi
 LIBS:Xicor
 LIBS:Zilog
+LIBS:sma_edge
 LIBS:cc1100-cache
 EELAYER 25 0
 EELAYER END
@@ -227,8 +228,6 @@ F 3 "" H 7800 3300 50  0000 C CNN
 	1    7800 3300
 	1    0    0    -1  
 $EndComp
-Text GLabel 8700 3000 2    60   Output ~ 0
-Antenna
 $Comp
 L CC1101 U?
 U 1 1 580FAE17
@@ -304,7 +303,9 @@ F 3 "" H 5300 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 2750 6950 3250
+	6950 2750 6950 3000
+Wire Wire Line
+	6950 3000 6950 3250
 Connection ~ 6950 3000
 Wire Wire Line
 	7200 3000 6950 3000
@@ -325,13 +326,21 @@ Wire Wire Line
 Wire Wire Line
 	4200 1850 4350 1850
 Wire Wire Line
-	4650 1850 4650 2200
+	4650 1850 4650 1900
+Wire Wire Line
+	4650 1900 4650 2200
 Wire Wire Line
 	4650 1850 4750 1850
 Wire Wire Line
 	5150 2750 5300 2750
 Wire Wire Line
-	5300 2500 5300 4050
+	5300 2500 5300 2750
+Wire Wire Line
+	5300 2750 5300 2900
+Wire Wire Line
+	5300 2900 5300 3350
+Wire Wire Line
+	5300 3350 5300 4050
 Wire Wire Line
 	5300 2900 5150 2900
 Connection ~ 5300 2750
@@ -399,10 +408,14 @@ F 3 "" H 4650 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 3950 4350 4700
+	4350 3950 4350 4350
+Wire Wire Line
+	4350 4350 4350 4700
 Connection ~ 4350 4350
 Wire Wire Line
-	4650 3950 4650 4700
+	4650 3950 4650 4350
+Wire Wire Line
+	4650 4350 4650 4700
 Connection ~ 4650 4350
 $Comp
 L +3V3 #PWR032
@@ -470,6 +483,39 @@ F 1 "Earth" H 8400 3150 50  0001 C CNN
 F 2 "" H 8400 3300 50  0000 C CNN
 F 3 "" H 8400 3300 50  0000 C CNN
 	1    8400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMA_EDGE SMA_E?
+U 1 1 5814B7ED
+P 9050 3000
+F 0 "SMA_E?" H 9200 3300 60  0000 C CNN
+F 1 "SMA_EDGE" H 9200 3200 60  0000 C CNN
+F 2 "" H 9050 3000 60  0001 C CNN
+F 3 "" H 9050 3000 60  0001 C CNN
+	1    9050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5814BBC3
+P 8700 3100
+F 0 "#PWR?" H 8700 2850 50  0001 C CNN
+F 1 "Earth" H 8700 2950 50  0001 C CNN
+F 2 "" H 8700 3100 50  0000 C CNN
+F 3 "" H 8700 3100 50  0000 C CNN
+	1    8700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5814BC0A
+P 8700 2900
+F 0 "#PWR?" H 8700 2650 50  0001 C CNN
+F 1 "Earth" H 8700 2750 50  0001 C CNN
+F 2 "" H 8700 2900 50  0000 C CNN
+F 3 "" H 8700 2900 50  0000 C CNN
+	1    8700 2900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

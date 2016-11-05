@@ -80,6 +80,7 @@ LIBS:video
 LIBS:Worldsemi
 LIBS:Xicor
 LIBS:Zilog
+LIBS:sma_edge
 LIBS:cc1100-cache
 EELAYER 25 0
 EELAYER END
