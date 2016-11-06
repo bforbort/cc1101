@@ -1146,4 +1146,6 @@ F 3 "" H 8100 2500 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	8100 2200 8800 2200
+Text GLabel 3800 5600 0    60   Input ~ 0
+ERROR
 $EndSCHEMATC

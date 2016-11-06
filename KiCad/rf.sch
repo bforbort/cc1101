@@ -303,9 +303,7 @@ F 3 "" H 5300 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 2750 6950 3000
-Wire Wire Line
-	6950 3000 6950 3250
+	6950 2750 6950 3250
 Connection ~ 6950 3000
 Wire Wire Line
 	7200 3000 6950 3000
@@ -326,21 +324,13 @@ Wire Wire Line
 Wire Wire Line
 	4200 1850 4350 1850
 Wire Wire Line
-	4650 1850 4650 1900
-Wire Wire Line
-	4650 1900 4650 2200
+	4650 1850 4650 2200
 Wire Wire Line
 	4650 1850 4750 1850
 Wire Wire Line
 	5150 2750 5300 2750
 Wire Wire Line
-	5300 2500 5300 2750
-Wire Wire Line
-	5300 2750 5300 2900
-Wire Wire Line
-	5300 2900 5300 3350
-Wire Wire Line
-	5300 3350 5300 4050
+	5300 2500 5300 4050
 Wire Wire Line
 	5300 2900 5150 2900
 Connection ~ 5300 2750
@@ -408,14 +398,10 @@ F 3 "" H 4650 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 3950 4350 4350
-Wire Wire Line
-	4350 4350 4350 4700
+	4350 3950 4350 4700
 Connection ~ 4350 4350
 Wire Wire Line
-	4650 3950 4650 4350
-Wire Wire Line
-	4650 4350 4650 4700
+	4650 3950 4650 4700
 Connection ~ 4650 4350
 $Comp
 L +3V3 #PWR032
